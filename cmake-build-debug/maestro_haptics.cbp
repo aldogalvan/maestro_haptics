@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="maestro_haptics"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\libigl-src\;CMake Files\cmake-build-debug\_deps\libigl-src\external\;CMake Files\cmake-build-debug\_deps\libigl-src\external\glad\;CMake Files\cmake-build-debug\_deps\libigl-src\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\cmake\;CMake Files\examples\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maestro-haptics">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libmaestro-haptics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/../include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 maestro-haptics"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maestro-haptics/fast">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libmaestro-haptics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/../include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 maestro-haptics/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soem">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libsoem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 soem"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soem/fast">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libsoem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 soem/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maestro3">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libmaestro3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 maestro3"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maestro3/fast">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libmaestro3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 maestro3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esmacat">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libesmacat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 esmacat"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esmacat/fast">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/libesmacat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 esmacat/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example-01">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/example-01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/../include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 example-01"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example-01/fast">
+				<Option output="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/example-01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/include/maestro3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/src"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/../include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 example-01/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/examples/example-01/main.cpp">
+			<Option target="example-01"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/examples/example-01/my_app.cpp">
+			<Option target="example-01"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/examples/example-01/my_app.h">
+			<Option target="example-01"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_analog_input.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_analog_input.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_application.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_application.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_base_module.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_base_module.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_loadcell_interf.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_loadcell_interf.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_motordriver.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_motordriver.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_sea_driver.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_sea_driver.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_server.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_server.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_slave.cpp">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/esmacat_server/esmacat_slave.h">
+			<Option target="esmacat"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/digit.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/digit.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/esmacat_interface.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/esmacat_interface.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/exojointanglesensor.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/exojointanglesensor.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/exomotor.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/exomotor.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/exosea.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/exosea.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/finger.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/finger.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/hw_interface.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/hw_interface.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/hwinterface_esmacat.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/hwinterface_esmacat.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/thumb.cpp">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/maestro3/thumb.h">
+			<Option target="maestro3"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/osal/linux/osal.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux/nicdrv.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux/nicdrv.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux/oshw.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/oshw/linux/oshw.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatbase.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatbase.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatcoe.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatcoe.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatconfig.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatconfig.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatdc.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatdc.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatfoe.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatfoe.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatmain.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatmain.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatprint.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatprint.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatsoe.c">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/include/soem_include/soem/ethercatsoe.h">
+			<Option target="soem"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hCollisionDetector.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hCollisionDetector.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hGenericObject.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hGenericObject.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hHapticObject.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hHapticObject.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hHapticPoint.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hHapticPoint.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hMaestroHand.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hMaestroHand.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hMesh.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hMesh.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hThread.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hThread.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hWorld.cpp">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/hWorld.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/src/world_objects.h">
+			<Option target="maestro-haptics"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\external\glad\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/LibiglFolders.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/LibiglWindows.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake-build-debug/_deps/libigl-src/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\libigl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aldo/CLionProjects/maestro-haptics/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g CMakeFiles/example-01.dir/example-01/main.cpp.o CMakeFiles/example-01.dir/example-01/my_app.cpp.o -o example-01  ../libmaestro-haptics.a -lOpenGL /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lpthread /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so ../glad/libglad.a -ldl ../libmaestro3.a ../libesmacat.a ../libsoem.a -lpthread -lrt 
